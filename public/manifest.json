@@ -1,0 +1,38 @@
+{
+  "name": "Content Planner AI",
+  "short_name": "Content Planner",
+  "description": "Бесплатное PWA-приложение для планирования контента в соцсетях",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#030213",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "business"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Создать пост",
+      "url": "/?action=create-post",
+      "description": "Быстро создать новый пост"
+    },
+    {
+      "name": "Добавить идею",
+      "url": "/?action=add-idea",
+      "description": "Добавить новую идею"
+    }
+  ]
+}
